@@ -1,0 +1,27 @@
+.tarrifs--container {
+    background: white;
+    width: 80%;
+    margin: 30px auto auto auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0.5em;
+}
+
+.taxi-one {
+    background: url('../img/taxi1.jpg') no-repeat; 
+    height: 300px;
+    width: 400px;
+}
+
+.taxi-two {
+    background: url('../img/taxi2.jpg') no-repeat;
+    height: 300px;
+    width: 400px;
+}
+.class {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1em;
+}
