@@ -1,7 +1,6 @@
 .header {
   background: url("../img/backgroundtaxi.jpg");
   height: 100vh;
-
 }
 .navbar {
   width: 70%;
@@ -30,10 +29,10 @@
 }
 
 .text--container {
-    width: 50%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-line-height: 0.2px;
+  line-height: 0.2px;
   align-items: center;
   justify-content: center;
   margin: 90px auto auto auto;
@@ -44,11 +43,10 @@ h1 {
   font-weight: 20px;
 }
 h2 {
-  font-size: 72px;
+  font-size: 62px;
   font-weight: 20px;
- 
 }
 h3 {
-    font-size: 30px;
-    font-weight: 15px;
+  font-size: 30px;
+  font-weight: 15px;
 }

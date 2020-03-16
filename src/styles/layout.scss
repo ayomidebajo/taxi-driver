@@ -2,7 +2,12 @@
 @import './about.scss';
 @import './services.scss';
 @import './tarrifs.scss';
+@import './stats.scss';
 
 body{
     font-family: "Rosario", sans-serif;
+}
+.container {
+    margin: 0;
+    padding: 0;
 }

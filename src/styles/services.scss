@@ -1,5 +1,10 @@
 .service--background {
-  background:#ead032;
+  background: #ead032;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   .service--container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -25,7 +30,7 @@
   & i {
     margin-left: 140px;
     margin-top: 40px;
-      color: #ead032;
-      font-size: 50px;
+    color: #ead032;
+    font-size: 50px;
   }
 }
