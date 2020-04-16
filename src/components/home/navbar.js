@@ -7,7 +7,7 @@ function navbar() {
         <ul className="nav-list">
           <li>
             <a href="#">
-            <h3>Taxi Drive</h3>
+            <h3><i class="fas fa-car-alt"></i>Taxi Drive</h3>
             </a>
           </li>
           <li>

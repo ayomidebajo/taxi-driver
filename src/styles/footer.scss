@@ -1,0 +1,44 @@
+.footer--background {
+  background: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666;
+  letter-spacing: 1px;
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .about {
+    margin-left: 6em;
+  }
+  .download {
+    margin-right: 6em;
+  }
+  .contact {
+    margin-left: 50px;
+  }
+
+  .copyright--text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & h3 {
+    color: white;
+  }
+}
+.mobile-btns {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 0.5em;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

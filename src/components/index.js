@@ -4,6 +4,9 @@ import About from './about/About';
 import Services from './serve/Services'
 import Tarrifs from './tarrifs/Tarrifs';
 import Stats from './stats/Stats';
+import AppDownload from './app-download/AppDownload';
+import Footer from './footer/Footer';
+import Select from 'react-select';
 
 export class index extends Component {
     render() {
@@ -14,6 +17,8 @@ export class index extends Component {
                 <Services />
                 <Tarrifs />
                 <Stats />
+                <AppDownload />
+                <Footer />
             </div>
         )
     }

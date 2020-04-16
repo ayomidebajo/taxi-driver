@@ -1,0 +1,47 @@
+.app-download__container {
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    
+    .mobile-download-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-left: 6em;
+    }
+}
+
+.mobile-phone {
+    background: url('../img/mobile-new.png') center no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+
+.download--containers {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2em;
+
+    .ios-store {
+        background: url('../img//app.png') center no-repeat;
+        height: 200px;
+        width: 150px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .google-store {
+        background: url('../img/app1.png') center no-repeat;
+        height: 200px;
+        width: 150px;
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
