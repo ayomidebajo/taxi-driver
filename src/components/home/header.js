@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./navbar";
-import  img  from "../../img/cab.png";
+// import  img  from "../../img/cab.png";
+
+
 
 function header() {
   return (
