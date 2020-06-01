@@ -5,18 +5,38 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 0.5em;
+
+    @include for-phone-only {
+        padding: 0;
+        margin: auto;
+        width: 100%;
+        display: grid;
+      grid-template-columns: 1fr;
+      height: 100%;
+       }
 }
 
 .taxi-one {
     background: url('../img/taxi1.jpg') no-repeat; 
     height: 300px;
     width: 400px;
+    @include for-phone-only {
+        padding: 0;
+        margin: auto;
+        width: 100%;
+       }
 }
 
 .taxi-two {
     background: url('../img/taxi2.jpg') no-repeat;
     height: 300px;
     width: 400px;
+    @include for-phone-only {
+        padding: 0;
+        margin: auto;
+        width: 100%;
+       }
+
 }
 .class {
     padding-top: 5px;

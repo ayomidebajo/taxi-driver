@@ -5,11 +5,22 @@
   grid-gap: 2em;
   grid-template-columns: repeat(3, 1fr);
   margin: 50px auto auto auto;
+
+  @include for-phone-only {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+   }
 }
 .image {
   background: url(../img/man.jpg) no-repeat;
   height: 500px;
   width: 100%;
+
+  @include for-phone-only {
+    display: none;
+   }
 }
 h4 {
   color: #323648;
@@ -25,10 +36,17 @@ h5 {
   height: 450px;
   width: 330px;
   border: 1px solid black;
-  align-content: center;
+
+
+  @include for-phone-only {
+    padding: 0;
+    margin: 0;
+    width: 95%;
+   }
 
   & input {
     padding-left: 10px;
+    
   }
 
   .form-title {

@@ -5,17 +5,35 @@
   align-items: center;
   justify-content: center;
 
+  @include for-phone-only {
+  height: 100%;
+   }
+
   .service--container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0;
     width: 80%;
     margin: auto;
+
+    @include for-phone-only {
+      padding: 0;
+      margin: auto;
+      width: 100%;
+      display: grid;
+    grid-template-columns: 1fr;
+     }
   }
 
   .service {
     width: 400px;
     text-align: center;
+
+    @include for-phone-only {
+      padding: 0;
+      margin: auto;
+      width: 100%;
+     }
   }
   .fa {
     background: black;
